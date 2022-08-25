@@ -17,7 +17,7 @@
         $mail->isSMTP();
         $mail->Host = "smtp.gmail.com";
         $mail->SMTPAuth = true;
-        $mail->Username = "youremail@gmail.com"; //enter you email address
+        $mail->Username = "aksharvirani227@gmail.com"; //enter you email address
         $mail->Password = 'yourpassword'; //enter you email password
         $mail->Port = 465;
         $mail->SMTPSecure = "ssl";
@@ -25,7 +25,7 @@
         //Email Settings
         $mail->isHTML(true);
         $mail->setFrom($email, $name);
-        $mail->addAddress("youremail@gmail.com"); //enter you email address
+        $mail->addAddress("aksharvirani227@gmail.com"); //enter you email address
         $mail->Subject = ("$email ($subject)");
         $mail->Body = $body;
 
